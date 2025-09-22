@@ -100,7 +100,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 18px;
 }
 
 .card button {
@@ -158,7 +158,7 @@ h2 {
 footer {
     text-align: center;
     color: #223018;
-    padding: 20px 0px;
+    padding: 30px 0px;
     font-size: 13px;
     font-weight: 500;
 }
@@ -168,8 +168,46 @@ footer {
     .card {
         flex: 1 1 calc(33.333% - 20px); /* 3 por linha */
     }
+    .card img {
+        width: 45px;
+        height: 45px;
+    }
     .sub-cards {
         flex: 1 1 calc(33.333% - 20px); /* 3 por linha certinho */
+    }
+    .sub-cards img {
+        width: 30px;
+        height: 30px;
+    }
+    .button-topo button {
+        padding: 6px 12px;
+        font-size: 16px;
+    }
+    .logo img {
+        width: 180px;
+        height: 80px;
+    }
+    .banner h1 {
+        font-size: 2rem;
+    }
+    .banner h3 {
+        font-size: 1.2rem;
+    }
+    .banner button {
+        font-size: 1rem;
+        padding: 0.7rem 1rem;
+    }
+    h2 {
+        font-size: 1.6rem
+    }
+    .card p, .cards2 p, footer p {
+        font-size: 1.1rem;
+    }
+    .descricao p {
+        font-size: 1.2rem;
+    }
+    .card button {
+        font-size: 1rem;
     }
 }
 
