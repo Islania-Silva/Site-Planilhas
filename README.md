@@ -61,7 +61,7 @@ Ele inclui:
 1. Baixe ou clone o repositório:
 
 ```bash
-git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
+git clone https://github.com/Islania-Silva/Site-Planilhas.git
 ```
 2. Link para o Git Pages
 ```bash
