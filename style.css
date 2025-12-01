@@ -220,4 +220,8 @@ footer {
     .card {
         flex: 1 1 calc(25% - 20px); /* 4 por linha */
     }
+
+    main {
+        gap: 80px;
+    }
 }
