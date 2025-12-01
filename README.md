@@ -5,8 +5,8 @@ Site profissional desenvolvido para apresentar e oferecer planilhas prontas para
 ---
 
 ## Demonstração
-```bash
 Git Pages:
+```bash
 https://github.com/Islania-Silva/Site-Planilhas
 ```
 
@@ -65,7 +65,6 @@ git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
 ```
 2. Link para o Git Pages
 ```bash
-Git Pages:
 https://github.com/Islania-Silva/Site-Planilhas
 ```
 ---
