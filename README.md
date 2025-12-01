@@ -65,7 +65,7 @@ git clone https://github.com/Islania-Silva/Site-Planilhas.git
 ```
 2. Link para o Git Pages
 ```bash
-https://github.com/Islania-Silva/Site-Planilhas
+https://islania-silva.github.io/Site-Planilhas/
 ```
 ---
 
