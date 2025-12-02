@@ -44,22 +44,22 @@ header {
     background: rgb(132, 145, 66);
     color: white;
     border: none;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
-.button-topo button:hover,
+/* .button-topo button:hover,
 .banner button:hover,
 .card button:hover {
     box-shadow: 0 0 6px 5px rgb(165, 182, 82);
 }
 
 .banner button {
-    transition: transform 0.2s ease; /* animação suave */
+    transition: transform 0.2s ease; animação suave
 }
 
 .banner button:hover {
-    transform: translateY(-5px); /* sobe 5px */
-}
+    transform: translateY(-5px); sobe 5px
+} */
 
 .banner {
     max-width: 310px;
@@ -107,7 +107,7 @@ h4 {
     border: none;
     color: white;
     font-size: 14px;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .beneficios {
@@ -134,7 +134,7 @@ li {
 }
 .card {
     margin-top: 20px;
-    background: #9cb99c;
+    background: #e1f8e1;
     border: 1px solid #4d5f4d;
     border-radius: 9px;
 }
@@ -160,4 +160,11 @@ li {
     color: white;
     border: none;
     border-radius: 20px;
+}
+footer {
+    text-align: center;
+    color: #223018;
+    padding: 50px 0px;
+    font-size: 13px;
+    font-weight: 500;
 }

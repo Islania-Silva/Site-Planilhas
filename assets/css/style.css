@@ -39,25 +39,26 @@ header {
     background: rgb(132, 145, 66);
     color: white;
     border: none;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
-.button-topo button:hover,
+/* .button-topo button:hover,
 .banner button:hover,
 .card button:hover {
     box-shadow: 0 0 6px 5px rgb(165, 182, 82);
-}
+} */
 
-.banner button {
-    transition: transform 0.2s ease; /* animação suave */
-}
+/* .banner button {
+    transition: transform 0.2s ease; animação suave
+} */
 
-.banner button:hover {
-    transform: translateY(-5px); /* sobe 5px */
-}
+/* .banner button:hover {
+    transform: translateY(-5px); sobe 5px
+} */
 
 .banner {
-    max-width: 880px;
+    /* max-width: 880px; */
+    max-width: 300px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -97,7 +98,7 @@ h2 {
     border: none;
     color: white;
     font-size: 14px;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 /* --- Seção Categorias --- */
@@ -135,7 +136,7 @@ h2 {
     color: white;
     border: none;
     border-radius: 20px;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 .card p, .cards2 p, .descricao p {
     font-size: 0.9rem;
