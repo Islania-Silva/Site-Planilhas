@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;   /* largura máxima em desktops */
+    margin: 0 auto;
+    padding: 0px 10px;
+    gap: 40px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.topo {
+    background: #425c2f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.button-topo {
+    display: flex;
+}
+
+.button-topo button {
+    padding: 5px 5px;
+    font-size: 12px;
+    border-radius: 20px;
+    background: rgb(132, 145, 66);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button-topo button:hover,
+.banner button:hover,
+.card button:hover {
+    box-shadow: 0 0 6px 5px rgb(165, 182, 82);
+}
+
+.banner button {
+    transition: transform 0.2s ease; /* animação suave */
+}
+
+.banner button:hover {
+    transform: translateY(-5px); /* sobe 5px */
+}
+
+.banner {
+    max-width: 310px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.banner h1 {
+    font-size: 1rem;
+    color: #2e4b2e;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h2 {
+    font-size: 1.2rem;
+    color: #2e4b2e;
+    padding: 10px 0px;
+}
+.banner h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #2e4b2e;
+}
+
+.banner button {
+    width: 180px;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: rgb(108, 131, 66);
+    border: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
