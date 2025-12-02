@@ -42,6 +42,10 @@ header {
     cursor: pointer;
 }
 
+.button-topo button:hover {
+    box-shadow: 0 0 4px 5px rgb(144, 160, 66);
+}
+
 .banner {
     max-width: 880px;
     margin: auto;
