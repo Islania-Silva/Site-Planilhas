@@ -29,11 +29,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 10px;
+    padding: 0 5px;
 }
 
 .button-topo {
     display: flex;
+    gap: 5px;
 }
 
 .button-topo button {
@@ -113,10 +114,50 @@ h4 {
     margin-top: 20px;
 }
 
+.beneficios p {
+    color: #1b2e1b;
+    font-style: italic;
+    font-size: 12px;
+}
+
 ul {
     padding-left: 20px;
 }
 
 li {
     padding: 2px;
+    font-size: .9rem;
+    margin: 2px;
+}
+.lista {
+    margin: auto;
+}
+.card {
+    margin-top: 20px;
+    background: #9cb99c;
+    border: 1px solid #4d5f4d;
+    border-radius: 9px;
+}
+
+.card ul {
+    padding-left: 40px;
+}
+
+.card img {
+    width: 100%;
+}
+.botao {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    font-size: 12px;
+    background: rgb(108, 131, 66);
+    color: white;
+    border: none;
+    border-radius: 20px;
 }
