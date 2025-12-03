@@ -168,3 +168,17 @@ footer {
     font-size: 13px;
     font-weight: 500;
 }
+/* Custom Scroll */
+
+  ::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgb(151, 180, 98);
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(120, 146, 72);
+  }
